@@ -1,0 +1,62 @@
+form {
+    display: grid;
+}
+
+#novidade {
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#title-cliente {
+    padding-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#nome {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+#email {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+#date {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+#telefone {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+#endereco {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 25px;
+}
+
+#button-cadcli {
+    background-color: rgb(170, 170, 170);
+    font-family: 'Roboto Slab', serif;
+    width: 250px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#limpar-cadcli {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+}

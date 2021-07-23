@@ -1,0 +1,43 @@
+.background-section-one {
+    background-image: url(../assets/fundo1.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.background-box {
+    background-image: url(../assets/fundo3.jpg);
+    border-radius: 5px;
+    width: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#welcome-funcionario {
+    padding: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+footer {
+    height: 500px;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-end {
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    width: 200px;
+    border-radius: 5px;
+    align-items: baseline;
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+}

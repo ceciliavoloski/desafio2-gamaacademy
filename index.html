@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/welcome.css" />
+    <link rel="stylesheet" href="css/top-down.css" />
+    <link rel="stylesheet" href="css/cadastro-produto.css" />
+    <link rel="stylesheet" href="css/cadastro-clientes.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <title>Painel Funcionário</title>
+  </head>
+
+  <body>
+    <section role="banner" class="section-container background-section-one">
+      <p class="background-box" id="welcome-funcionario">
+        Portal do Funcionário
+      </p>
+    </section>
+
+    <section role="navigation" class="background-section-middle">
+      <h1 id="title-welcome">Bem Vindo Funcionário</h1>
+      <p id="text-welcome">
+        Estamos muito felizes em te ver por aqui. Para fazer o seu serviço ser
+        ainda mais prazeroso e dinâmico, criamos esse site especialmente para
+        você. Por aqui você pode gerenciar cadastros de clientes e produtos em
+        estoque. <br />
+        <br />
+        Espero que goste do site feito especialmente para você, qualquer dúvida,
+        não exite em nos contatar. Lembramos que estamos abertos a sugestões, e
+        logo mais trazemos novas funcionalidades para vocês.
+      </p>
+    </section>
+
+    <section
+      role="navigation"
+      aria-level="section-navigation"
+      class="section-container background-section-middle"
+    >
+      <div class="card-container">
+        <div id="cadcli">
+          <p id="novidade">Cadastro Para Novos Clientes</p>
+          <form id="formularioclientes">
+            <p id="title-cliente">Nome</p>
+            <input
+              aria-label="Coloque aqui o seu nome"
+              type="text"
+              inputmode="nome"
+              placeholder="Digite seu nome"
+              id="nome"
+            />
+            <p id="title-cliente">E-mail</p>
+            <input
+              aria-label="Coloque aqui seu email"
+              type="email"
+              inputmode="email"
+              placeholder="Digite seu e-mail"
+              id="email"
+            />
+            <p id="title-cliente">Data de Nascimento</p>
+            <input
+              type="date"
+              inputmode="date"
+              placeholder="Digite sua data de nascimento"
+              id="date"
+            />
+            <p id="title-cliente">Telefone</p>
+            <input type=number" inputmode="tel" placeholder="Digite seu
+            telefone" id="telefone">
+            <p id="title-cliente">Endereço</p>
+            <input
+              type="text"
+              inputmode="endereco"
+              placeholder="Digite seu endereço"
+              id="endereco"
+            />
+            <input
+              aria-label="Ao clicar no botão irá cadastrar os seus dados na nossa loja"
+              type="submit"
+              value="Cadastrar"
+              id="button-cadcli"
+            />
+            <a
+              href=""
+              type="reset"
+              id="limpar-cadcli"
+              aria-label="Ao clicar no apagar os dados escritos"
+              >Limpar</a
+            >
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section
+      role="navigation"
+      aria-level="section-navigation"
+      class="section-container background-section-middle"
+    >
+      <div class="card-container">
+        <div id="cadprod">
+          <p id="novidade">Cadastro de novos produtos</p>
+          <form id="formularioprodutos">
+            <p id="title-produto">Produto</p>
+            <input
+              aria-label="Coloque o nome do produto aqui"
+              type="text"
+              inputmode="nomeProduto"
+              placeholder="Digite o nome do produto"
+              id="nomeProduto"
+            />
+            <p id="title-produto">Código do Produto</p>
+            <input
+              aria-label="Coloque o código do produto aqui"
+              type="text"
+              inputmode="codProduto"
+              placeholder="Digite o código do produto"
+              id="codProduto"
+            />
+            <p id="title-produto">Quantidade do produto</p>
+            <td>
+              <select id="qtidadeProduto">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </td>
+            <input
+              aria-label="Ao clicar no botão irá cadastrar os produtos de estoque da loja"
+              type="submit"
+              value="Cadastrar"
+              id="button-cadprod"
+            />
+            <a
+              href=""
+              type="reset"
+              id="limpar-cadprod"
+              aria-label="Ao clicar no apagar os dados escritos"
+              >Limpar</a
+            >
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer role="contentinfo" class="background-section-one">
+      <p class="background-box" id="footer-end">
+        Todos os direitos reservados. <br />
+        <a href="https://www.gama.academy/" title="Gama Academy" target="blank"
+          >Gama Academy</a
+        >
+        Produzido por Cecília Voloski.
+      </p>
+    </footer>
+  </body>
+  <script src="js/script-cliente.js"></script>
+  <script src="js/scritp-produto.js"></script>
+</html>

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-container {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.background-section-middle {
+  background-image: url(../assets/fundo2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container {
+  font-family: 'Roboto Slab', serif;
+  background-image: url(../assets/fundo3.jpg);
+  border-radius: 15px;
+  padding: 25px;
+  width: 500px;
+  color: rgb(0, 0, 0);
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+}
